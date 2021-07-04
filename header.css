@@ -189,7 +189,7 @@ footer{
   margin-top: 50px;  
   display: grid;
   grid-template-columns:  15% 15% 15% auto;  
-  column-gap: 20px;
+  column-gap: 10px;
   background-color: rgb(218, 229, 232);
   
 }
@@ -209,9 +209,17 @@ footer{
 }
 
 @media(max-width:750px){
-    #imgfooter{
+
+    #containerimgfooter{
         display: none;
     }
+   
+}
+
+@media(max-width:500px){
+    #quemsomosFooter{
+        display: none;
+      }
 }
 
 
@@ -219,6 +227,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
     
 }
 .footerlink{
@@ -232,8 +241,12 @@ footer{
 #contatofooter {
     grid-column-start: 2;
     grid-column-end: 3;
-    
 }
+
+@media(max-width: 750px){
+}
+
+
 #quemsomosFooter{
     grid-column-start: 3;
     grid-column-end: 4;
@@ -287,6 +300,6 @@ li>img{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    list-style-type: none;
   
 }
