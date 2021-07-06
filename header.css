@@ -180,6 +180,25 @@ header{
    }
 }
 
+/*Produtos*/ 
+
+#tenis1,#tenis2,#tenis3,#tenis4,#secao-produtos {
+    text-align: center;
+}
+
+#produto1,#produto2,#produto3,#produto4 {
+    width: 100%;
+    height: 80%;
+}
+
+.produtos {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+    padding: 10px;
+}
+
 
 /* Footer */
 
