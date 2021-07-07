@@ -119,7 +119,7 @@ main {
     text-align: center;
 }
 .carrossel ul{
-    display: grid;
+    display: flex;
     grid-template-columns:  repeat(3, 1fr);
     grid-auto-rows: minmax(50px, auto);
     grid-gap: 10px;
