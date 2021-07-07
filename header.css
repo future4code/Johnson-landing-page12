@@ -189,16 +189,12 @@ header{
 footer{
 
   margin-top: 50px;  
-  display: grid;
-  grid-template-columns:  15% 15% 15% auto;  
-  column-gap: 20px;
+  display: flex;
   background-color: rgb(218, 229, 232);
   
 }
 
 #containerimgfooter{
-    grid-column-start: 1;
-    grid-column-end: 2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,9 +207,17 @@ footer{
 }
 
 @media(max-width:750px){
-    #imgfooter{
+
+    #containerimgfooter{
         display: none;
     }
+   
+}
+
+@media(max-width:500px){
+    #quemsomosFooter{
+        display: none;
+      }
 }
 
 
@@ -221,25 +225,16 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 10px 20px 20px;    
     
 }
 .footerlink{
     list-style: none;
 }
+
 .footerlink a{
     text-decoration: none;
     color: black;
-}
-
-#contatofooter {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    
-}
-#quemsomosFooter{
-    grid-column-start: 3;
-    grid-column-end: 4;
-   
 }
 
 
@@ -261,12 +256,11 @@ footer ul p{
 
 
 .redessociais{
-    display: grid;
-    grid-template-rows: 40% auto;
-    justify-content: flex-end;
+    display: flex;
     align-items: center;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 2%;
     
 }
 
@@ -275,9 +269,10 @@ footer ul p{
 .redessociais li{
     display: inline;
     margin: 0px 5px;
+    
 }
 .redessociais>p{
-    margin-top: auto;
+    display: inline;
 }
 
 li>img{
@@ -288,7 +283,6 @@ li>img{
 #iconesredessociais{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     
-  
 }
