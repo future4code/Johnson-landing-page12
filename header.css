@@ -151,6 +151,7 @@ header{
     position: absolute;
     font-size: 20px;
     bottom: 10%;
+    color: #2E3237;
 }
 
 .categorias>img{
@@ -162,6 +163,7 @@ header{
 {
     #secaocategorias{
         row-gap: 10px;
+        grid-template-columns: auto;
     }
     
   #feminino
