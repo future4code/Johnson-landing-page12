@@ -182,11 +182,11 @@ header{
 
 /*Produtos*/ 
 
-#tenis1,#tenis2,#tenis3,#tenis4,#secao-produtos {
+.texto-de-descricao,#secao-produtos {
     text-align: center;
 }
 
-#produto1,#produto2,#produto3,#produto4 {
+.foto-do-tenis {
     width: 100%;
     height: 80%;
 }
@@ -194,9 +194,16 @@ header{
 .produtos {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     column-gap: 20px;
     padding: 10px;
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 480px) {
+   .produtos {
+       display: grid;
+       grid-template-columns: 1fr;
+   } 
 }
 
 
