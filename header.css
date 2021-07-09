@@ -224,7 +224,7 @@ header{
 
 /*Produtos*/ 
 
-.texto-de-descricao,#secao-produtos {
+.texto-de-descricao,.preco,#secao-produtos {
     text-align: center;
 }
 
@@ -241,13 +241,13 @@ header{
     padding: 10px;
 }
 
-@media screen and (min-device-width: 375px) and (max-device-width: 480px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 420px) {
    .produtos {
        display: grid;
        grid-template-columns: 1fr;
+       grid-template-rows: repeat(4,1fr)
    } 
 }
-
 
 /* Footer */
 
