@@ -224,7 +224,7 @@ header{
 
 /*Produtos*/ 
 
-.texto-de-descricao,#secao-produtos {
+.texto-de-descricao,.preco,#secao-produtos {
     text-align: center;
 }
 
