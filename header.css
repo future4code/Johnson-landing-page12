@@ -10,31 +10,27 @@ body{
 /* Header */
 
 header{
-    display: grid;
-    grid-template-columns: 10% 8% auto 20%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 20%;
     background-color: rgb(218, 229, 232);
     margin-bottom: 30px;
 }   
 
+#logo,#logo2{ 
+    width: 8%;
 
-.imgContainer {
-    grid-column-start: 2;
-    grid-column-end: 3;
+}
+#logo2{
+    display: none;
 }
 
-#logo{ 
-
-    width: 100%;
-    height: auto;
-}
-
-.menu{
-    padding: 0;
-    grid-column-start: 3;
-    grid-column-end: 4;
+.menu{  
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
 .menu li{
@@ -42,6 +38,17 @@ header{
     margin: 30px;
     font-size: 18px;
     font-weight: bold;
+}
+
+@media(max-width:600px){
+    #logo{
+        display: none;
+    }
+    #logo2{
+        display: inline;
+        width: 30%;
+    }
+    
 }
 
 .dropdown{
@@ -89,8 +96,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column-start: 4;
-    grid-column-end: 5;
+
   
 }
 
@@ -99,7 +105,7 @@ header{
     border-radius: 20px;
     border-width: 1px;
     background-color: rgb(218, 229, 232);
-    width: 150px;
+    width: 100px;
     height: 40px;
     transition: border 0.1s;
 
@@ -336,3 +342,4 @@ li>img{
     justify-content: flex-end;
     
 }
+
