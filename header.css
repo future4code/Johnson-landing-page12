@@ -51,6 +51,7 @@ header{
 
     .menu{
         width: 30%;
+        margin-left: 2px;
         
     }
 
@@ -149,10 +150,9 @@ header{
     justify-content: center;
     align-items: center;
     width: 25%;
-    margin-left: 30px;
 }
 
-#texto>h2{
+#texto>p{
     text-align: center;
     margin-bottom: 10px;
 }
@@ -164,6 +164,16 @@ header{
     color: white;
     font-weight: bold;
     border-color: white;
+}
+
+@media(max-width:500px){
+    #texto{
+        width: 70%;
+    }
+
+    #promocoes{
+        padding: 15px;
+    }
 }
 /*Categorias*/
 
