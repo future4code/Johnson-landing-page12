@@ -135,6 +135,7 @@ header{
     background-color: #4C6C73;
 }
 
+/* Promoções */
 #promocoes{
     height: 30%;
     display: flex;
@@ -175,7 +176,6 @@ header{
         padding: 15px;
     }
 }
-/*Categorias*/
 
 /*Lancamentos*/
 
@@ -228,6 +228,8 @@ header{
 .containerlancamentos img:hover {
     transform: scale(1.1);
 }
+
+/*Categorias*/
 
 #secaocategorias{
     display: flex;
