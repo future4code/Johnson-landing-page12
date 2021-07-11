@@ -1,7 +1,6 @@
 # Johnson-landing-page12
 
-Link do Surge: [4comfort](abright-representative.surge.sh
-)
+Link do Surge:[4comfort](abright-representative.surge.sh)
 
 Prints do site no desktop
 
