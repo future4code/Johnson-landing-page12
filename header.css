@@ -23,6 +23,7 @@ header{
 }
 #logo2{
     display: none;
+
 }
 
 .menu{  
@@ -46,7 +47,24 @@ header{
     }
     #logo2{
         display: inline;
+        width: 35%;
+    }
+
+    .menu{
         width: 30%;
+        
+    }
+
+    #login{
+      width: 30%;  
+    }
+
+    .menu li{
+        margin: 0;
+    }
+
+    header{
+        justify-content: space-between;
     }
     
 }
