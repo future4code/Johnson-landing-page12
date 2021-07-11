@@ -1,6 +1,6 @@
 # Johnson-landing-page12
 
-Link do Surge: abright-representative.surge.sh
+Link do Surge: bright-representative.surge.sh
 
 Prints do site no desktop
 
